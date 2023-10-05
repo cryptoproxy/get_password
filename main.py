@@ -1,3 +1,5 @@
+# для этого нам нужен .txt файл с базой типа login:pass или url:login:pass
+# это полезно для создания собственного словаря для брутфорса
 
 
 def get_pwd(dir):
@@ -15,5 +17,5 @@ def get_pwd(dir):
                 except Exception as ex:
                     print(ex)
 
-get_pwd('private_zabugor_40000.txt')
+get_pwd('file.txt')
 
